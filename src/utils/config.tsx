@@ -27,7 +27,7 @@ export const NavItems = () => {
       position: "top",
     },
     {
-      name: "Moies",
+      name: "Movies",
       href: "/movie",
       icon: <Clapperboard size={20} />,
       active: isNavItemActive(pathname, "/movie"),

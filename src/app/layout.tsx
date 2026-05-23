@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Inter, Outfit, Poppins } from "next/font/google";
-import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 import { ThemeProvider } from "@/components/theme-provider";
 import { ModeToggle } from "@/components/mode-toggle";
@@ -15,7 +14,7 @@ const outfit = Outfit({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "CineBook",
   description:
-    "CinnBook is a movie searching and bookmarking app where users can brows information about any movie and also bookmark the movie",
+    "CineBook is a movie searching and bookmarking app where users can browse information about any movie and also bookmark the movie",
 };
 
 export default function RootLayout({
