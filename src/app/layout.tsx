@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import "./globals.css";
 import { Inter, Outfit, Poppins } from "next/font/google";
 import { Toaster } from "@/components/ui/toaster";
 import { ThemeProvider } from "@/components/theme-provider";
@@ -24,9 +25,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/icon" type="image/png" />
-      </head>
       <body className={outfit.className}>
         <SessionProvider>
           <ThemeProvider
